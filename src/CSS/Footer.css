@@ -1,0 +1,151 @@
+/*====================FOOTER====================*/
+.footer {
+  padding-inline: 2.7rem;
+  padding-bottom: 20rem;
+}
+
+.footer .footerContent {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.footer .footerContent .footerContent_apresentation {
+  width: min(66.2rem, 100%);
+}
+
+.footerContent_apresentation h2 {
+  color: transparent;
+  /* background: linear-gradient(to right, #A3C4F1, #D2DEEF); */
+  background: linear-gradient(270deg,
+      #A3C4F1,
+      #D2DEEF,
+      #5C9EFF,
+      #E2E8F0,
+      #A3C4F1);
+  background-size: 800% 800%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveGradient 10s linear infinite;
+  font-size: 4rem;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 800;
+  line-height: 100%;
+  padding-block: 1.1rem;
+
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+
+
+}
+
+.footerContent_apresentation .footerContentParagraph {
+
+  font-family: "Urbanist", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 3rem;
+  color: var(--primary-Color-White);
+
+}
+
+.footerContent_apresentation .footerContentParagraph strong {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--primary-Color-White);
+
+}
+
+.footer .footerContent .footerOwnerApresentation {
+  font-size: 1.6rem;
+  font-family: "Glancyr", Consolas, 'Courier New', monospace;
+  color: #818184;
+  font-weight: 100;
+}
+
+.footer .footerContent .footerContent_ImagePersonal img {
+  display: block;
+  margin: auto;
+
+}
+
+.footerContent .footerSocialLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.footerSocialLinks a {
+  display: inline-block;
+  padding: 0.1rem;
+  transition: ease 1s;
+}
+
+.footerSocialLinks a:hover {
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(127, 127, 212);
+  border: solid 1px var(--primary-Color-White);
+}
+
+
+@media(max-width:600px){
+
+    .footer {
+     padding-inline: 0rem;
+ 
+    }
+
+
+    .footer .footerContent .footerContent_apresentation {
+     width: min(35.2rem, 100%);
+     text-align: center;
+}
+
+
+.footerContent_apresentation h2{
+    font-size: 3.6rem;
+    padding-block: 2rem;
+}
+
+.footerContent_apresentation .footerContentParagraph {
+  font-size: 2rem;
+}
+
+.footerContent_apresentation .footerContentParagraph strong {
+  font-size: 2rem;
+}
+
+
+.footerContent .footerSocialLinks {
+  justify-content: center;
+
+}
+
+
+.footerContent .footerContent_ImagePersonal .wilsonImage {
+  width: 29.5rem;
+}
+
+.footerContent .footerContent_ImagePersonal .figmaImage {
+  width: 32.5rem;
+}
+}

@@ -1,0 +1,58 @@
+/*====================GLOBAL====================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    font-size: 62.5%;
+    /*1rem = 10px*/
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Assets/sports-background-sports-design-background\ 1.png');
+    --primary-Color-White: #FFFFFF;
+}
+
+
+/* FONT
+
+.urbanist-<uniquifier> {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+*/
+
+body {
+    background: linear-gradient(to left top, #060A13, #17202C);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*====================APP====================*/
+.App {
+    width: min(144rem, 100%);
+    padding-inline: 10rem;
+    font-family: "Urbanist", sans-serif;
+    margin: auto;
+
+}
+
+
+@media (max-width:600px) {
+    .App {
+        width: min(37.5rem, 100%);
+        padding-inline: 2rem;
+    }
+
+}

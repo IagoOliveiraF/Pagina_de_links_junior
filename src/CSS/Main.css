@@ -1,0 +1,263 @@
+/*====================MAIN====================*/
+.main {
+  width: min(125rem, 100%);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 10.6rem;
+}
+
+.main a {
+  width: min(53.1rem, 100%);
+  text-decoration: none;
+  display: block;
+}
+
+.main .contentElement {
+  margin-top: 6.71rem;
+  width: min(53.1rem, 100%);
+  height: 18.1rem;
+  background: linear-gradient(to left top, #060A13, #17202C);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.main .contentElement:hover {
+  transform: scale(1.07) rotate(1deg);
+  z-index: 10;
+  box-shadow: 0 0.5rem 1.5rem rgba(156, 150, 150, 0.3);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.main .contentElement:last-child {
+  margin-top: 5.7rem;
+}
+
+.contentElement a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* ou contain */
+}
+
+.contentElement h2 {
+  color: transparent;
+   background: linear-gradient(270deg,
+      #A3C4F1,
+      #D2DEEF,
+      #5C9EFF,
+      #E2E8F0,
+      #A3C4F1);
+  background-size: 800% 800%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveGradient 10s linear infinite;
+  font-size: 3.2rem;
+  font-family: "Glancyr", Consolas, 'Courier New', monospace;
+  margin-top: 0.21rem;
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+  font-weight: 400;
+  line-height: 88%;
+
+
+}
+
+.contentElement p {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--primary-Color-White);
+  padding-inline: 4rem;
+  padding-bottom: 2rem;
+
+}
+
+.contentElement p strong {
+  font-weight: 700;
+}
+
+.main #contentElement1 h2 {
+  padding-inline: 6.1rem;
+}
+
+.main #contentElement2 {
+  position: relative;
+  flex-direction: row;
+}
+
+.main #contentElement2 .hyperlinktag_contentElement2_main {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.main #contentElement2 div {
+  text-align: start;
+  width: min(23.8rem, 100%);
+  margin-left: 15rem;
+}
+
+.main #contentElement2 .robot_image_main {
+  position: absolute;
+  top: 0;
+  left: -40px;
+
+}
+
+#contentElement2 div h2 {
+  font-size: 4rem;
+  border-bottom: solid 1px #ffffff41;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+#contentElement2 div .behance_icon_main {
+  width: 1.5rem;
+
+}
+
+#contentElement3 {
+  position: relative;
+}
+
+
+#contentElement3 .contentElement3_catalogy_image_fontCatalogImage {
+  position: absolute;
+  top: -2.5rem;
+  right: 75%;
+}
+
+#contentElement3 .contentElement3_catalogy_image_menuStyleImage {
+  position: absolute;
+  top: -1rem;
+  right: 88%;
+}
+
+
+#contentElement3 .contentElement3_material {
+  width: min(30.1rem, 100%);
+
+}
+
+
+#contentElement3 .contentElement3_material h2 {
+  font-size: 4rem;
+  border-top: solid 1px #ffffff41;
+  padding-top: 1rem;
+
+}
+
+#contentElement3 .hyperlinktag_contentElement3_main {
+  width: 0.8rem;
+}
+
+#contentElement3 .contentElement3_textures_image_belowTexture {
+  position: absolute;
+  top: 2.2rem;
+  left: 80%;
+}
+
+#contentElement3 .contentElement3_textures_image_aboveTexture {
+  position: absolute;
+  top: 3.5rem;
+  left: 83%;
+}
+
+
+@media (max-width:600px){
+
+    .main .contentElement {
+    margin-top: 6.71rem;
+    width: min(53.1rem, 100%);
+    height: 13.3rem;
+}
+
+.contentElement h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.main #contentElement1 h2 {
+  padding-inline: 2.1rem;
+}
+
+.contentElement p {
+  padding-inline: 0.5rem;
+  font-size: 1rem;
+}
+
+.main #contentElement2 div {
+
+  width: min(12rem, 100%);
+  margin-left: 8rem;
+}
+
+.main #contentElement2 .robot_image_main {
+ width: 16.3rem;
+
+}
+
+#contentElement2 div h2 {
+  font-size: 2rem;
+
+}
+
+#contentElement2 div .behance_icon_main {
+  width: 1.2rem;
+
+}
+
+
+
+
+#contentElement3 .contentElement3_catalogy_image_fontCatalogImage {
+  top: -3rem;
+  right: 65%;
+  width: 12rem;
+}
+
+#contentElement3 .contentElement3_catalogy_image_menuStyleImage {
+  top: -1.8rem;
+  right: 82%;
+  width: 5rem;
+}
+
+
+#contentElement3 .contentElement3_material {
+  width: min(14.4rem, 100%);
+}
+
+
+#contentElement3 .contentElement3_material h2 {
+  font-size: 2rem;
+}
+
+#contentElement3 .hyperlinktag_contentElement3_main {
+  width: 0.8rem;
+}
+
+#contentElement3 .contentElement3_textures_image_belowTexture {
+  top: 2rem;
+  left: 76%;
+  width: 5rem;
+}
+
+#contentElement3 .contentElement3_textures_image_aboveTexture {
+  top: 3rem;
+  left: 80%;
+  width: 6rem;
+}
+
+}
