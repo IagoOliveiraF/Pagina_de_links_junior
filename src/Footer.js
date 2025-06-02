@@ -29,7 +29,10 @@ function Footer() {
                     <img src={figmaLayout} className="figmaImage"></img>
                 </div>
             </div>
+            <div className="footerBar"></div>
+
         </footer>
+
 
     )
 }

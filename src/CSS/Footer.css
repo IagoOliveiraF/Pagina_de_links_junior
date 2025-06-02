@@ -2,6 +2,8 @@
 .footer {
   padding-inline: 2.7rem;
   padding-bottom: 20rem;
+
+
 }
 
 .footer .footerContent {
@@ -57,7 +59,7 @@
   font-family: "Urbanist", sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
-  line-height: 100%;
+  line-height: 121%;
   letter-spacing: 0%;
   margin-bottom: 3rem;
   color: var(--primary-Color-White);
@@ -79,6 +81,26 @@
   font-family: "Glancyr", Consolas, 'Courier New', monospace;
   color: #818184;
   font-weight: 100;
+}
+
+.footer .footerContent .footerContent_ImagePersonal {
+  position: relative;
+  z-index: 1;
+}
+
+.footer .footerContent .footerContent_ImagePersonal::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 100%;
+  background: radial-gradient(circle, #D9D9D9);
+  filter: blur(200px);
+  opacity: 0.1;
+  z-index: -1;
+  border-radius:100%;
 }
 
 .footer .footerContent .footerContent_ImagePersonal img {
@@ -107,45 +129,46 @@
 }
 
 
-@media(max-width:600px){
 
-    .footer {
-     padding-inline: 0rem;
- 
-    }
+@media(max-width:600px) {
 
+  .footer {
+    padding-inline: 0rem;
 
-    .footer .footerContent .footerContent_apresentation {
-     width: min(35.2rem, 100%);
-     text-align: center;
-}
+  }
 
 
-.footerContent_apresentation h2{
+  .footer .footerContent .footerContent_apresentation {
+    width: min(35.2rem, 100%);
+    text-align: center;
+  }
+
+
+  .footerContent_apresentation h2 {
     font-size: 3.6rem;
     padding-block: 2rem;
-}
+  }
 
-.footerContent_apresentation .footerContentParagraph {
-  font-size: 2rem;
-}
+  .footerContent_apresentation .footerContentParagraph {
+    font-size: 2rem;
+  }
 
-.footerContent_apresentation .footerContentParagraph strong {
-  font-size: 2rem;
-}
-
-
-.footerContent .footerSocialLinks {
-  justify-content: center;
-
-}
+  .footerContent_apresentation .footerContentParagraph strong {
+    font-size: 2rem;
+  }
 
 
-.footerContent .footerContent_ImagePersonal .wilsonImage {
-  width: 29.5rem;
-}
+  .footerContent .footerSocialLinks {
+    justify-content: center;
 
-.footerContent .footerContent_ImagePersonal .figmaImage {
-  width: 32.5rem;
-}
+  }
+
+
+  .footerContent .footerContent_ImagePersonal .wilsonImage {
+    width: 29.5rem;
+  }
+
+  .footerContent .footerContent_ImagePersonal .figmaImage {
+    width: 32.5rem;
+  }
 }

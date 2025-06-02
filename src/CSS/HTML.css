@@ -16,7 +16,6 @@ body,
 #root {
     margin: 0;
     padding: 0;
-    background-image: url('../Assets/sports-background-sports-design-background\ 1.png');
     --primary-Color-White: #FFFFFF;
 }
 
@@ -34,9 +33,21 @@ body,
 */
 
 body {
-    background: linear-gradient(to left top, #060A13, #17202C);
+    background: linear-gradient(to bottom, #060A13, #17202C);
     background-repeat: no-repeat;
     background-size: cover;
+  
+}
+
+body::after{
+     content: "";
+     position: absolute;
+     bottom: 1;
+     left: 0;
+     height: 0.5rem; /* altura da "borda" */
+     width: 100%;
+     background: linear-gradient(to right, #A3C4F1, #D2DEEF);
+     border-radius: 999px;
 }
 
 /*====================APP====================*/
@@ -45,7 +56,7 @@ body {
     padding-inline: 10rem;
     font-family: "Urbanist", sans-serif;
     margin: auto;
-
+   
 }
 
 
