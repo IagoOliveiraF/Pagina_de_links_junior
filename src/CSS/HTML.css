@@ -17,6 +17,7 @@ body,
     margin: 0;
     padding: 0;
     --primary-Color-White: #FFFFFF;
+    z-index: 1;
 }
 
 
@@ -33,10 +34,11 @@ body,
 */
 
 body {
-    background: linear-gradient(to bottom, #060A13, #17202C);
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+  background: 
+    linear-gradient(to bottom, rgba(6, 10, 19, 0.2), rgba(23, 32, 44, 0.2)), /* camada do degradê */
+    #0D0F17; /* cor sólida de fundo */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body::after{
