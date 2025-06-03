@@ -3,6 +3,7 @@ import hyperLinkImage from './Assets/Icon_Hyperlink.png';
 import robotImageMain from './Assets/Robot.png';
 import behanceIcon from './Assets/behance_icon.png';
 import googleDriveIcon from './Assets/Google_drive_icon.png';
+import topBarImage from './Assets/Top_bar_ThirdCard.png'
 import belowTextureImage from './Assets/Below_texture.png';
 import aboveTextureImage from './Assets/Above_texture.png';
 import fontCatalogImage from './Assets/Font_catalog_icons.png';
@@ -38,6 +39,7 @@ function Main() {
 
             <a href="#" target="_blank" rel="noopener noreferrer">
                 <article className="contentElement" id="contentElement3">
+                        <img src={topBarImage} className="topImageBar"></img>
                         <img src={fontCatalogImage} className='contentElement3_catalogy_image_fontCatalogImage'></img>
                         <img src={menuStylesImage} className='contentElement3_catalogy_image_menuStyleImage'></img>
                     <div className="contentElement3_material">
