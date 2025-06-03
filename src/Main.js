@@ -20,7 +20,7 @@ function Main() {
                     </img>
 
                     <h2>Entre em contato e faça seu orçamento</h2>
-                    <p>Tem uma idea ou projeto em mente? <strong>Fale comigo</strong> e descubra como
+                    <p>Tem uma ideia ou projeto em mente? <strong>Fale comigo</strong> e descubra como
                         podemos tirar isso do papel com design estratégico e resultados reais.</p>
                 </article>
 
