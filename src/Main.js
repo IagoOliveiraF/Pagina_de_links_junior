@@ -14,7 +14,7 @@ function Main() {
 
     return (
         <main className='main'>
-            <a href="https://www.behance.net/onboarding/hirerCreative" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/juniortri.psd/" target="_blank" rel="noopener noreferrer">
                 <article className="contentElement" id="contentElement1">
                     <img src={hyperLinkImage} class="hyperlinktag_contentElement1_main">
                     </img>
@@ -25,7 +25,7 @@ function Main() {
                 </article>
 
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.behance.net/juniortripsd" target="_blank" rel="noopener noreferrer">
                 <article className="contentElement" id="contentElement2">
                     <img src={robotImageMain} class="robot_image_main"></img>
                     <div>
@@ -37,7 +37,7 @@ function Main() {
                 </article>
             </a>
 
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/folders/15dAkZ3Z0RARr2d8udUZ724-CRTphCdfe?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <article className="contentElement" id="contentElement3">
                         <img src={topBarImage} className="topImageBar"></img>
                         <img src={fontCatalogImage} className='contentElement3_catalogy_image_fontCatalogImage'></img>

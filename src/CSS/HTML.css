@@ -21,18 +21,27 @@ body,
 }
 
 
-/* FONT
-
-.urbanist-<uniquifier> {
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+@font-face {
+  font-family: 'Glancyr';
+  src: url('/src/Assets/public/fonts/Glancyr/Glancyr-Light.otf') format('opentype');
+  font-weight: 300;
   font-style: normal;
 }
 
 
+@font-face {
+  font-family: 'Glancyr';
+  src: url('/src/Assets/public/fonts/Glancyr/Glancyr-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
 
-*/
+@font-face {
+  font-family: 'Glancyr';
+  src: url('/src/Assets/public/fonts/Glancyr/Glancyr-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 
 body {
