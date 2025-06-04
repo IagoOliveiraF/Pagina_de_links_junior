@@ -175,11 +175,13 @@
 #contentElement2 div h2 {
   font-size: 4rem;
   padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
+
 
 #contentElement2 div .behance_icon_main {
   width: 1.5rem;
+  margin-left: 0.2rem;
 
 }
 

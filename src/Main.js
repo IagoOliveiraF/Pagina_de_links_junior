@@ -8,6 +8,7 @@ import belowTextureImage from './Assets/Below_texture.png';
 import aboveTextureImage from './Assets/Above_texture.png';
 import fontCatalogImage from './Assets/Font_catalog_icons.png';
 import menuStylesImage from './Assets/Menu_styles_icons.png';
+
 function Main() {
 
     let hyperlinkTag = "http://localhost:3000/"
